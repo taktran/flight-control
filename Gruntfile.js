@@ -69,6 +69,7 @@ module.exports = function (grunt) {
       },
       js: {
         src: [
+          // 'bin/*.js', // Not yet
           '<%= app.publicBase %>/js/*.js',
           '<%= app.publicBase %>/js/**/*.js'
         ]
