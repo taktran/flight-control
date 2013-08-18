@@ -1,0 +1,14 @@
+{
+  "name": "raphael-sketchpad",
+  "homepage": "https://github.com/taktran/raphael-sketchpad",
+  "version": "0.5.1",
+  "_release": "0.5.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.5.1",
+    "commit": "547bbcf63ee04e7bb5a1794547d21ff4f1bb1ead"
+  },
+  "_source": "git@github.com:taktran/raphael-sketchpad.git",
+  "_target": "~0.5.1",
+  "_direct": true
+}
