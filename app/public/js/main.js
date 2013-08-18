@@ -20,6 +20,14 @@
 
       console.log(data);
       sock.send(data);
+
+      // Disable editing
+      sketchpad.editing(false);
+    });
+
+    $("#next").click(function() {
+      sketchpad.clear();
+      sketchpad.editing(true);
     });
   };
 
@@ -29,6 +37,12 @@
 
   sock.onclose = function() {
     console.log('close');
+  };
+
+
+  // Set globals (for debugging)
+  window.App = {
+    sketchpad: sketchpad
   };
 
 })();
