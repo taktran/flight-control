@@ -1,10 +1,20 @@
 # Flight control
 
-A website built using [generator-starttter](https://github.com/taktran/generator-starttter).
+AR-Drone flight control game.
+
+Built for London nodecopter hackday 2013.
+
+## Installation
+
+    npm install
 
 ## Development
 
-Start the server
+Start the flight server
+
+    node ./bin/flight-server.js
+
+Start the webserver
 
     grunt
 
